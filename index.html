@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="google-site-verification" content="pl-KBSS6xcsN3sI3mZhaftzO6rYJlJAbY6kd2eeM1aw" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Honda GPS Customer Service</title>
+  <meta name="description" content="Contact Honda GPS Customer Service for expert GPS support and reliable guidance. Get help quickly and easily." />
+  <meta name="keywords" content="Honda GPS Customer Service, GPS support, contact Honda GPS, customer assistance, help desk" />
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f7fa;
+      color: #333;
+    }
+
+    header {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: #003366;
+      color: #fff;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      z-index: 1000;
+      padding:10px;
+    }
+
+    .logo {
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
+
+    .support-button {
+      background: #fff;
+      color: #003366;
+      padding: 0.5rem 1rem;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+
+    main {
+      margin-top: 100px;
+      padding: 2rem;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+      max-width: 900px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    h1 {
+      text-align: center;
+      color: #003366;
+    }
+
+    .get-support-btn {
+      display: block;
+      margin: 1rem auto;
+      padding: 0.75rem 1.5rem;
+      font-size: 1rem;
+      background-color: #003366;
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    .grid-box {
+      background-color: #ffffff;
+      padding: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    }
+
+    @media (max-width: 768px) {
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .support-button {
+        margin-top: 0.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">Honda GPS Customer Service</div>
+    <button class="support-button" onclick="toggleZendesk()">Support</button>
+  </header>
+
+  <main>
+    <h1>How to Contact Honda GPS Customer Service?</h1>
+    <button class="get-support-btn" onclick="toggleZendesk()">Get Support</button>
+
+    <div class="grid-box">
+      Honda GPS Customer Service provides professional assistance to help customers with any GPS-related concerns. Whether facing technical glitches or needing product guidance, our dedicated support team ensures users receive personalized help and a seamless experience.
+    </div>
+
+    <div class="grid-box">
+      When users require help with their Honda GPS, our support team is readily available. We are committed to solving issues and improving user satisfaction by offering helpful resources, technical direction, and responsive customer care tailored to each situation.
+    </div>
+
+    <div class="grid-box">
+      Contacting Honda GPS Customer Service allows users to access expert advice for resolving problems. Our service agents are trained to handle a variety of queries, ensuring GPS systems function smoothly and providing updates, diagnostics, and general assistance.
+    </div>
+
+    <div class="grid-box">
+      For customers seeking reliable guidance, Honda GPS support delivers dependable solutions. Our specialists offer quick responses to ensure efficient issue resolution, focusing on clarity and friendliness to maintain trust and support through every interaction.
+    </div>
+
+    <div class="grid-box">
+      Honda GPS Customer Support is built on reliability and prompt response. Whether through device troubleshooting or providing product information, our goal is to offer users peace of mind and maintain the highest standard of service quality.
+    </div>
+  </main>
+
+  <!-- Zendesk Widget Script -->
+  <script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=7668c976-0fb7-47ee-8740-3e9115bdb10f"></script>
+
+  <script>
+    // Hide Zendesk on page load
+    window.zE || (window.zE = {});
+    window.zESettings = {
+      webWidget: {
+        chat: { suppress: true }, // hide chat
+        contactForm: { suppress: true }, // hide contact form
+      },
+    };
+
+    let isZendeskOpen = false;
+
+    function toggleZendesk() {
+      if (window.zE) {
+        if (!isZendeskOpen) {
+          zE('webWidget', 'open');
+          isZendeskOpen = true;
+        } else {
+          zE('webWidget', 'close');
+          isZendeskOpen = false;
+        }
+      }
+    }
+
+    // Optional: Ensure widget is closed on load
+    window.onload = function () {
+      if (window.zE) {
+        zE('webWidget', 'close');
+      }
+    };
+  </script>
+</body>
+</html>
